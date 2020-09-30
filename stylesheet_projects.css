@@ -1,0 +1,96 @@
+@import  url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+html {
+    font-family: "Kumbh Sans", sans-serif;
+    color: white
+}
+
+body{
+    
+    background-image: url("Midnight City.jpg");
+}
+
+div{
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul{ 
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ 
+.flutter{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.dart{
+    display: flex;
+    width: 13%;
+    justify-content: space-around;
+}
+
+.flutter-img{
+    width: 50px;
+    height: 50px;
+    vertical-align: top;
+}
+
+.dart-img{
+    width: 65px;
+    height: 50px;
+}
+
+.flutter-img:hover{
+    width: 75px;
+    height: 75px;
+    transition: 1s;
+}
+
+.dart-img:hover{
+    width: 75px;
+    height: 65px;
+    transition: 1s;
+}
+
+.Covid19{
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+
+.Sharecipe{
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 25px;
+}
+
+#github img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#github img:hover{
+    width: 75px;
+    height: 75px;
+    transition: 1s;
+}
+
+#playstore{
+    width: 100px;
+    height: 100px;
+}
+
+#playstore:hover{
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+}
